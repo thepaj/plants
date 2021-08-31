@@ -1,0 +1,35 @@
+/* 
+    dark green: #5B6D5B
+    dark pink: #CA8A8B
+    light pink: #E2BCB7
+    light: #F6E6E4
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: 100%; 
+    background-color: #F6E6E4;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    background-color: #5B6D5B;
+    color: #F6E6E4;
+    text-decoration: none;
+}
+
+.nav-brand {
+    color: #F6E6E4;
+    text-decoration: none;
+    margin-left: 20px;
+}
